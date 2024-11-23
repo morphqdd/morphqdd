@@ -10,6 +10,11 @@
   <img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge" height="20" alt="tailwindcss logo"  />
 </div>
 
+<div align="left">
+  <img src="https://img.shields.io/crates/udt/245836?style=for-the-badge" height="20" alt="rust logo"  />
+  <img width="12" />
+</div>
+
 ###
 
 <br clear="both">
