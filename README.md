@@ -28,13 +28,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=europeDreadlyDevil&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=4&theme=moltack&hide_border=false&order=2&custom_title=is%20mind%20out?" height="185" alt="languages graph"  />
 </div>
 
-###
-
-<br clear="both">
-
-<div align="center">
-  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=316j6z2habjnpobqxepn2tdoesr4&cover_image=true&theme=compact&show_offline=false&background_color=ead1ae&interchange=true" />
-</div>
 
 ###
 
