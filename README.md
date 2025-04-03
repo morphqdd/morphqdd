@@ -24,8 +24,8 @@
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=europeDreadlyDevil&hide_title=true&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=moltack&locale=en&hide_border=true&order=1" height="150" alt="stats graph" /> <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=europeDreadlyDevil&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=4&theme=moltack&hide_border=false&order=2&custom_title=is%20mind%20out?" height="185" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=morphqdd&hide_title=true&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=moltack&locale=en&hide_border=true&order=1" height="150" alt="stats graph" /> <br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=morphqdd&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=4&theme=moltack&hide_border=false&order=2&custom_title=is%20mind%20out?" height="185" alt="languages graph"  />
 </div>
 
 
