@@ -19,13 +19,13 @@
 
 <br clear="both">
 
-<img align="left" width="340" height="380" src="https://i.pinimg.com/736x/ea/01/40/ea01400c2afbd0476309cfed35afc00d.jpg"  />
+<img align="left" width="330" height="380" src="https://i.pinimg.com/736x/ea/01/40/ea01400c2afbd0476309cfed35afc00d.jpg"  />
 
 ###
 
 <div align="right">
-  <img src="https://github-readme-stats.vercel.app/api?username=morphqdd&hide_title=true&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=moltack&locale=en&hide_border=true&order=1" width="500" height="150" alt="stats graph" /> <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=morphqdd&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=4&theme=moltack&hide_border=false&order=2&custom_title=is%20mind%20out?" height="185" width="500" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=morphqdd&hide_title=true&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=moltack&locale=en&hide_border=true&order=1" width="480" height="150" alt="stats graph" /> <br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=morphqdd&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=4&theme=moltack&hide_border=false&order=2&custom_title=is%20mind%20out?" height="185" width="480" alt="languages graph"  />
 </div>
 
 
