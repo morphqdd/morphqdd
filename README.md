@@ -19,7 +19,7 @@
 
 <br clear="both">
 
-<img align="left" width="330" height="380" src="https://i.pinimg.com/736x/ea/01/40/ea01400c2afbd0476309cfed35afc00d.jpg"  />
+<img align="left" width="315" height="500" src="https://i.pinimg.com/736x/ea/01/40/ea01400c2afbd0476309cfed35afc00d.jpg"  />
 
 ###
 
