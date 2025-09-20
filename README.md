@@ -5,8 +5,8 @@
 ###
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white&style=for-the-badge" height="20" alt="rust logo"  />
-  <img src="https://img.shields.io/crates/udt/245836?style=for-the-badge" height="20" alt="rust logo"  />
+  <img src="https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white&style=for-the-badge" height="100" alt="rust logo"  />
+  <img src="https://img.shields.io/crates/udt/245836?style=for-the-badge" height="100" alt="rust logo"  />
 </div>
 
 ###
