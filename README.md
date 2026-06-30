@@ -6,7 +6,7 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white&style=for-the-badge" height="100" alt="rust logo"  />
-  <img src="https://img.shields.io/crates/udt/245836?style=for-the-badge" height="100" alt="rust logo"  />
+  <img src="https://img.shields.io/static/v1?message=compiling...&label=status&color=DEA584&style=for-the-badge" height="100" alt="status badge"  />
 </div>
 
 ###
@@ -42,9 +42,17 @@
 
 ###
 
+<div align="center">
+  <a href="https://morphqdd.github.io/morphqdd/roulette.html" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Random%20Commit&logo=dice&label=%F0%9F%8E%B2&color=DEA584&logoColor=white&labelColor=&style=for-the-badge" height="20" alt="random commit roulette"  />
+  </a>
+</div>
+
+###
+
 <br clear="both">
 <div align="center">
-  <img src="https://raw.githubusercontent.com/europeDreadlyDevil/europeDreadlyDevil/output/snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/morphqdd/morphqdd/output/snake.svg" alt="Snake animation" />
 
 </div>
 
@@ -53,3 +61,23 @@
   <div align="center">
     <img src="https://leetcard.jacoblin.cool/europedreadlydevil?theme=catppuccinMocha&font=JetBrains%20Mono&ext=heatmap" width="550" />
   </div>
+
+###
+
+<br clear="both">
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=morphqdd&theme=onedark&no-frame=true&no-bg=true&margin-w=8&row=1" alt="GitHub trophies" />
+</div>
+
+###
+
+<br clear="both">
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=morphqdd&style=for-the-badge&color=DEA584&label=PROFILE+VIEWS" alt="profile views" />
+</div>
+
+<div align="center">
+  <a href="https://morphqdd.github.io/morphqdd/secret.html">🕯️</a>
+</div>
