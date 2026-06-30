@@ -1,0 +1,42 @@
+name: Update header gif
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read click counter
+        id: counter
+        run: |
+          COUNT=$(curl -s https://abacus.jasoncameron.dev/get/morphqdd-readme/secret-clicks | jq -r '.value // 0')
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+
+      - name: Compute target gif
+        id: gif
+        run: |
+          URL=$(python3 scripts/select_gif.py "${{ steps.counter.outputs.count }}" gif-rules.json)
+          echo "url=$URL" >> "$GITHUB_OUTPUT"
+
+      - name: Update README header gif
+        run: |
+          python3 scripts/update_readme_gif.py "${{ steps.gif.outputs.url }}"
+
+      - name: Commit and push if changed
+        run: |
+          if ! git diff --quiet README.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: sync header gif to click-count tier"
+            git push
+          fi
