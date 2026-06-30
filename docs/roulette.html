@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>🎲</title>
+  <style>
+    body {
+      background: #0b0b12;
+      color: #d9d4e8;
+      font-family: monospace;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      padding: 0 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="msg">rolling the dice...</div>
+  <script>
+    const OWNER = "morphqdd";
+    const MAX_ATTEMPTS = 5;
+
+    async function fetchJson(url) {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error("GitHub API error: " + res.status);
+      return res.json();
+    }
+
+    async function pickRandomCommitUrl() {
+      const repos = await fetchJson(
+        "https://api.github.com/users/" + OWNER + "/repos?per_page=100&type=owner"
+      );
+      if (!repos.length) throw new Error("no public repos found");
+
+      for (let attempt = 0; attempt < MAX_ATTEMPTS; attempt++) {
+        const repo = repos[Math.floor(Math.random() * repos.length)];
+        const commits = await fetchJson(
+          "https://api.github.com/repos/" + OWNER + "/" + repo.name + "/commits?per_page=100"
+        );
+        if (commits.length) {
+          const commit = commits[Math.floor(Math.random() * commits.length)];
+          return commit.html_url;
+        }
+      }
+      throw new Error("couldn't find a repo with commits after " + MAX_ATTEMPTS + " tries");
+    }
+
+    pickRandomCommitUrl()
+      .then((url) => {
+        window.location.href = url;
+      })
+      .catch((err) => {
+        document.getElementById("msg").textContent =
+          "couldn't roll the dice: " + err.message;
+      });
+  </script>
+</body>
+</html>
